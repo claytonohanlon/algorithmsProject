@@ -30,8 +30,6 @@ void resetTasks(Task* list, int numTasks)
   }
 }
 
-
-
 void RoundRobinScheduler(Task* list, int numTasks, int quantum)
 {
 //reset the array of tasks
@@ -44,7 +42,7 @@ void RoundRobinScheduler(Task* list, int numTasks, int quantum)
   {
 
 //~~~~~print out schedule after each loop~~~~~
-    for(int i = 0; i < numTasks; i++)
+    /*for(int i = 0; i < numTasks; i++)
     {
       cout << i << ":\t";
       cout << "[";
@@ -53,8 +51,8 @@ void RoundRobinScheduler(Task* list, int numTasks, int quantum)
         cout << ".";
       }
       cout << "]" << endl;
-    }
-    cout << endl;
+    }*/
+    //cout << endl;
 
     for(int i = 0; i < numTasks; i++)
     {
@@ -72,7 +70,23 @@ void RoundRobinScheduler(Task* list, int numTasks, int quantum)
   cout << "Quantum Iterations: " << quantumIterations << endl << endl;
 }
 
+int indexHighestPriority(Task* list, int numTasks)
+{
+  int index = -1;
+  int highestPriority = -1;
 
+  for(int i = 0; i < numTasks; i++)
+  {
+    
+  }
+
+  return index;
+}
+
+void PriorityScheduler(Task* list, int numTasks, int quantum)
+{
+
+}
 
 void SequentialScheduler(Task* list, int numTasks, int quantum)
 {
@@ -87,7 +101,7 @@ void SequentialScheduler(Task* list, int numTasks, int quantum)
   {
 
 //~~~~~~~~print out task list~~~~~~~~~~~~~~~
-    for(int i = 0; i < numTasks; i++)
+    /*for(int i = 0; i < numTasks; i++)
     {
       cout << i << ":\t";
       cout << "[";
@@ -96,8 +110,8 @@ void SequentialScheduler(Task* list, int numTasks, int quantum)
         cout << ".";
       }
       cout << "]" << endl;
-    }
-    cout << endl;
+    }*/
+    //cout << endl;
 
 //while the task still has quota, continue to process
     while(list[i].getProgress() > 0)
@@ -112,9 +126,4 @@ void SequentialScheduler(Task* list, int numTasks, int quantum)
   cout << "Quantum Iterations: " << quantumIterations << endl << endl;
 }
 
-void ShortestRemainingTimeScheudler(Task* list, int numTasks, int quantum)
-{
-
-}
-
-#endif
+#endif //SCHEDULER_H
