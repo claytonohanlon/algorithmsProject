@@ -112,9 +112,59 @@ void SequentialScheduler(Task* list, int numTasks, int quantum)
   cout << "Quantum Iterations: " << quantumIterations << endl << endl;
 }
 
-void ShortestRemainingTimeScheudler(Task* list, int numTasks, int quantum)
+void PriorityScheduler(Task* list, int numTasks, int quantum)
 {
+  resetTasks(list, numTasks);
+  int index = -1;
+  int numSwitches = 0;
+  int quantumIterations = 0;
+  cout << "Beginning Priority Scheduling..." << endl << endl;
 
+  while(!allFinished(list, numTasks))
+  {
+    int highestPriority = 0;
+    for(int i = 0; i < numTasks; i++)
+    {
+      if(list[i].getPriority() > highestPriority && !list[i].isFinished())
+      {
+        highestPriority = list[i].getPriority();
+        index = i;
+      }
+    }
+//~~~~print out list of tasks~~~~~~~~~~
+    for(int i = 0; i < numTasks; i++)
+    {
+      cout << i << ":\t";
+      cout << "[";
+      for(int j = 0; j < list[i].getProgress(); j++)
+      {
+        cout << ".";
+      }
+      cout << "]" << endl;
+    }
+    cout << endl;
+
+    if(list[index].getProgress() > 0)
+    {
+      list[index].setProgress(list[index].getProgress() - quantum);
+
+      if(list[index].getPriority() > 1)
+      {
+        list[index].setPriority(list[index].getPriority() - 1);
+      }
+      quantumIterations++;
+      numSwitches++;
+    }
+    else
+    {
+      list[index].setPriority(0);
+    }
+
+
+  }
+  cout << "Finished Scheduling" << endl;
+  cout << "Number of Task Switches: " << numSwitches << endl;
+  cout << "Quantum Iterations: " << quantumIterations << endl << endl;
 }
 
 #endif
