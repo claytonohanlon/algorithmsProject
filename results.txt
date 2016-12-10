@@ -1,0 +1,398 @@
+herzberd@daniel-Mint ~/Code/algorithmsProject $ echo 50 3 | ./z; echo 500 3 | ./z; echo 5000 3 | ./z; echo 50000 3 | ./z
+number of tasks: 
+enter quantum: 
+
+====================================================
+TASKS: 50
+QUANTUM: 3
+Beginning Round Robin Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 109
+Quantum Iterations: 109
+
+Real Time: 8.642e-06
+
+
+Beginning Sequential Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 50
+Quantum Iterations: 109
+
+Real Time: 6.403e-06
+
+
+Beginning Priority Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 109
+Quantum Iterations: 109
+
+Real Time: 4.4094e-05
+
+
+number of tasks: 
+enter quantum: 
+
+====================================================
+TASKS: 500
+QUANTUM: 3
+Beginning Round Robin Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 1107
+Quantum Iterations: 1107
+
+Real Time: 4.4865e-05
+
+
+Beginning Sequential Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 500
+Quantum Iterations: 1107
+
+Real Time: 3.7957e-05
+
+
+Beginning Priority Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 1107
+Quantum Iterations: 1107
+
+Real Time: 0.00237069
+
+
+number of tasks: 
+enter quantum: 
+
+====================================================
+TASKS: 5000
+QUANTUM: 3
+Beginning Round Robin Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 11038
+Quantum Iterations: 11038
+
+Real Time: 0.000214394
+
+
+Beginning Sequential Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 5000
+Quantum Iterations: 11038
+
+Real Time: 0.000188731
+
+
+Beginning Priority Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 11038
+Quantum Iterations: 11038
+
+Real Time: 0.27565
+
+
+number of tasks: 
+enter quantum: 
+
+====================================================
+TASKS: 50000
+QUANTUM: 3
+Beginning Round Robin Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 109754
+Quantum Iterations: 109754
+
+Real Time: 0.00189975
+
+
+Beginning Sequential Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 50000
+Quantum Iterations: 109754
+
+Real Time: 0.00144152
+
+
+Beginning Priority Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 109754
+Quantum Iterations: 109754
+
+Real Time: 29.0737
+
+
+herzberd@daniel-Mint ~/Code/algorithmsProject $ echo 50 5 | ./z; echo 500 5 | ./z; echo 5000 5 | ./z; echo 50000 5 | ./z
+number of tasks: 
+enter quantum: 
+
+====================================================
+TASKS: 50
+QUANTUM: 5
+Beginning Round Robin Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 77
+Quantum Iterations: 77
+
+Real Time: 2.4414e-05
+
+
+Beginning Sequential Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 50
+Quantum Iterations: 77
+
+Real Time: 3.6814e-05
+
+
+Beginning Priority Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 77
+Quantum Iterations: 77
+
+Real Time: 0.000120887
+
+
+number of tasks: 
+enter quantum: 
+
+====================================================
+TASKS: 500
+QUANTUM: 5
+Beginning Round Robin Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 770
+Quantum Iterations: 770
+
+Real Time: 8.3098e-05
+
+
+Beginning Sequential Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 500
+Quantum Iterations: 770
+
+Real Time: 6.8303e-05
+
+
+Beginning Priority Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 770
+Quantum Iterations: 770
+
+Real Time: 0.00760889
+
+
+number of tasks: 
+enter quantum: 
+
+====================================================
+TASKS: 5000
+QUANTUM: 5
+Beginning Round Robin Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 7553
+Quantum Iterations: 7553
+
+Real Time: 0.000491501
+
+
+Beginning Sequential Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 5000
+Quantum Iterations: 7553
+
+Real Time: 0.000428215
+
+
+Beginning Priority Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 7553
+Quantum Iterations: 7553
+
+Real Time: 0.250601
+
+
+number of tasks: 
+enter quantum: 
+
+====================================================
+TASKS: 50000
+QUANTUM: 5
+Beginning Round Robin Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 74972
+Quantum Iterations: 74972
+
+Real Time: 0.00127649
+
+
+Beginning Sequential Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 50000
+Quantum Iterations: 74972
+
+Real Time: 0.00110216
+
+
+Beginning Priority Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 74972
+Quantum Iterations: 74972
+
+Real Time: 20.6434
+
+
+herzberd@daniel-Mint ~/Code/algorithmsProject $ echo 50 7 | ./z; echo 500 7 | ./z; echo 5000 7 | ./z; echo 50000 7 | ./z
+number of tasks: 
+enter quantum: 
+
+====================================================
+TASKS: 50
+QUANTUM: 7
+Beginning Round Robin Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 70
+Quantum Iterations: 70
+
+Real Time: 4.1679e-05
+
+
+Beginning Sequential Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 50
+Quantum Iterations: 70
+
+Real Time: 2.6244e-05
+
+
+Beginning Priority Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 70
+Quantum Iterations: 70
+
+Real Time: 0.000115526
+
+
+number of tasks: 
+enter quantum: 
+
+====================================================
+TASKS: 500
+QUANTUM: 7
+Beginning Round Robin Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 670
+Quantum Iterations: 670
+
+Real Time: 7.0749e-05
+
+
+Beginning Sequential Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 500
+Quantum Iterations: 670
+
+Real Time: 5.5114e-05
+
+
+Beginning Priority Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 670
+Quantum Iterations: 670
+
+Real Time: 0.00587087
+
+
+number of tasks: 
+enter quantum: 
+
+====================================================
+TASKS: 5000
+QUANTUM: 7
+Beginning Round Robin Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 6505
+Quantum Iterations: 6505
+
+Real Time: 0.000367422
+
+
+Beginning Sequential Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 5000
+Quantum Iterations: 6505
+
+Real Time: 0.000308254
+
+
+Beginning Priority Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 6505
+Quantum Iterations: 6505
+
+Real Time: 0.256795
+
+
+number of tasks: 
+enter quantum: 
+
+====================================================
+TASKS: 50000
+QUANTUM: 7
+Beginning Round Robin Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 65058
+Quantum Iterations: 65058
+
+Real Time: 0.00113238
+
+
+Beginning Sequential Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 50000
+Quantum Iterations: 65058
+
+Real Time: 0.000943932
+
+
+Beginning Priority Scheduling...
+
+Finished Scheduling
+Number of Task Switches: 65058
+Quantum Iterations: 65058
+
+Real Time: 18.4477
+
