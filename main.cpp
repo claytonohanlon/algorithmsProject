@@ -18,6 +18,7 @@ int main()
 
   RoundRobinScheduler(taskList, numTasks, quantum);
   SequentialScheduler(taskList, numTasks, quantum);
+  PriorityScheduler(taskList, numTasks, quantum);
 
   return 0;
 }
